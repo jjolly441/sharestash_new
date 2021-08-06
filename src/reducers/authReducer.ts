@@ -1,5 +1,3 @@
-import { initialState } from "./rootReducer";
-
 const LOGIN_USER = 'LOGIN_USER'
 const LOGOUT_USER = 'LOGOUT_USER'
 
@@ -12,7 +10,7 @@ export const authInitialState = {
 }
 
 export type authLoginActionType = {
-    type: typeof LOGIN_USER
+    type: typeof LOGIN_USER | typeof LOGOUT_USER
     payload: authStateType
 }
 

@@ -6,14 +6,6 @@ import { Box } from '@material-ui/system'
 import React from 'react'
 import { Link as Scroll } from 'react-scroll'
 import Header from './Header'
-import {
-  Autocomplete,
-  Checkbox,
-  FormControlLabel,
-  Grid,
-  TextField,
-  Typography,
-} from '@material-ui/core'
 
 const Section1 = () => {
   return (

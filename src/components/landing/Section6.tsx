@@ -1,5 +1,5 @@
 import BazarImage from '@component/BazarImage'
-import { H1, H3, H4, Paragraph } from '@component/Typography'
+import { H3, H4, Paragraph } from '@component/Typography'
 import { Card, Container, Grid, Button } from '@material-ui/core'
 import { styled } from '@material-ui/core/styles'
 import React from 'react'

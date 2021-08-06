@@ -133,7 +133,7 @@ const GroceryHeader: React.FC<GroceryHeaderProps> = ({ isFixed }) => {
           scroll="body"
           onClose={toggleDialog}
         >
-          <Login />
+          <Login toggleDialog = {false}/>
         </Dialog>
 
         <Drawer

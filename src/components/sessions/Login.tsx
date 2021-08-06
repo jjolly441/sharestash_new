@@ -9,7 +9,6 @@ import Visibility from '@material-ui/icons/Visibility'
 import VisibilityOff from '@material-ui/icons/VisibilityOff'
 import { useFormik } from 'formik'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import React, { useCallback, useState } from 'react'
 import * as yup from 'yup'
 import { loginWithGoogle, loginWithPassword, loginWithFacebook } from '../Firebase-auth'
@@ -74,16 +73,14 @@ const Login:React.FC<LoginProps> = ({toggleDialog}) => {
   const [passwordVisibility, setPasswordVisibility] = useState(false)
   const { dispatch } = useAppContext()
 
-  const router = useRouter()
-
   const togglePasswordVisibility = useCallback(() => {
     setPasswordVisibility((visible) => !visible)
   }, [])
 
   const handleFormSubmit = async (values: LoginForm) => {
     //router.push('/profile')
-    loginWithPassword(values.email, values.password).then((result) => {
-      const _user = { email: values.email, idToken: result.token }
+    loginWithPassword(values.email, values.password).then((result: any) => {
+      const _user = { email: values.email, idToken: result!.token }
       dispatch({
         "type": 'LOGIN_USER',
         payload: {
@@ -105,7 +102,7 @@ const Login:React.FC<LoginProps> = ({toggleDialog}) => {
     })
 
   const signInWithGoogle = () => {
-    loginWithGoogle().then((result) => {
+    loginWithGoogle().then((result: any) => {
       const _user = {email : result.email, idToken : result.token}
       dispatch({
         "type": 'LOGIN_USER',
@@ -119,7 +116,7 @@ const Login:React.FC<LoginProps> = ({toggleDialog}) => {
 }
 
   const signInWithFacebook = () => {
-    loginWithFacebook().then((result) => {
+    loginWithFacebook().then((result: any) => {
       const _user = {email : result.email, idToken : result.token}
       dispatch({
         "type": 'LOGIN_USER',

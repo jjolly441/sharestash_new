@@ -1,18 +1,14 @@
-import BabyBoy from '@component/icons/BabyBoy'
-import BabyGirl from '@component/icons/BabyGirl'
 import Car from '@component/icons/Car'
 import Dress from '@component/icons/Dress'
 import Food from '@component/icons/Food'
 import Gift from '@component/icons/Gift'
 import Laptop from '@component/icons/Laptop'
 import MakeUp from '@component/icons/MakeUp'
-import Man from '@component/icons/Man'
 import Microphone from '@component/icons/Microphone'
 import MotorBike from '@component/icons/MotorBike'
 import Pets from '@component/icons/Pets'
 import PlantPot from '@component/icons/PlantPot'
 import TeddyBear from '@component/icons/TeddyBear'
-import Woman from '@component/icons/Woman'
 
 const navigations = [
   /*

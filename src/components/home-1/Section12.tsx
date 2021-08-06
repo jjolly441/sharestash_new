@@ -1,7 +1,6 @@
 import BazarCard from '@component/BazarCard'
 import BazarIconButton from '@component/BazarIconButton'
 import CreditCardVerified from '@component/icons/CreditCardVerified'
-import CustomerService from '@component/icons/CustomerService'
 import Shield from '@component/icons/Shield'
 import Truck from '@component/icons/Truck'
 import { Container, Grid } from '@material-ui/core'

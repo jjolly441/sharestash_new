@@ -4,7 +4,6 @@ import Carousel from '@component/carousel/Carousel'
 import Navbar from '@component/navbar/Navbar'
 import { Box, Container } from '@material-ui/core'
 import React, { Fragment } from 'react'
-import SearchBox from '../search-box/SearchBox'
 
 
 

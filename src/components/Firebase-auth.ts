@@ -62,7 +62,7 @@ async function updateDisplayName(_displayName: string) {
         if (firebase.auth().currentUser == null)
             reject();
 
-        firebase.auth().currentUser.updateProfile({
+        firebase.auth().currentUser!.updateProfile({
             displayName: _displayName
         }).then(async (result) => {
             resolve(result)
@@ -76,7 +76,7 @@ async function loginWithPassword(email: any, password: any) {
             console.log(result)
             //   var user = fbauth.currentUser;
             //   console.log(user.refreshToken)
-            let token = await firebase.auth().currentUser.getIdToken(true);
+            let token = await firebase.auth().currentUser!.getIdToken(true);
             result.token = token;
             resolve(result)
         }).catch((error) => {
@@ -89,7 +89,7 @@ async function loginWithPassword(email: any, password: any) {
 async function logout() {
     return new Promise(async function (resolve, reject) {
         firebase.auth().signOut().then(() => {
-            resolve()
+            resolve("")
         }).catch((error) => {
             reject(error)
         });

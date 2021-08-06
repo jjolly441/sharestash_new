@@ -30,7 +30,6 @@ const ProductIntro7: React.FC<ProductIntro7Props> = ({
   title,
   price = 200,
   id,
-  days,
   setDays
 }) => {
 

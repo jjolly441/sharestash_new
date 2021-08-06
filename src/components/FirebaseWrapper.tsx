@@ -1,10 +1,9 @@
 import React, {useEffect} from "react";
 
 import firebase from 'firebase'
-import * as auth from './Firebase-auth'
 import { useAppContext } from '@context/app/AppContext'
 
-const FirebaseWrapper = ({ children, pageProps }: any) => {
+const FirebaseWrapper = ({ children }: any) => {
     const { dispatch } = useAppContext();
 
     useEffect(() => {

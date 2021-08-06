@@ -1,5 +1,4 @@
 import BazarButton from '@component/BazarButton'
-import Image from '@component/BazarImage'
 import BazarTextField from '@component/BazarTextField'
 import FlexBox from '@component/FlexBox'
 import { H3, H6, Small } from '@component/Typography'
@@ -83,7 +82,7 @@ const Signup = () => {
   }, [])
 
   const handleFormSubmit = async (values: FormData) => {
-    createUser(values.email, values.password).then((result) => {
+    createUser(values.email, values.password).then(() => {
       updateDisplayName(values.name).then(() => {
       }).catch((err) => {
         alert(err)
