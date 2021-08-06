@@ -57,7 +57,7 @@ async function loginWithFacebook() {
     });
 }
 
-async function updateDisplayName(_displayName) {
+async function updateDisplayName(_displayName: string) {
     return new Promise(async function (resolve, reject) {
         if (firebase.auth().currentUser == null)
             reject();
