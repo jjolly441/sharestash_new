@@ -10,7 +10,7 @@ const LoginPage = () => {
       alignItems="center"
       justifyContent="center"
     >
-      <Login />
+      <Login toggleDialog  = {false}/>
     </FlexBox>
   )
 }
