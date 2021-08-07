@@ -1,12 +1,3 @@
-import { SvgIcon, SvgIconProps } from '@material-ui/core'
-import React from 'react'
-
-const Category = (props: SvgIconProps) => {
-  return (
-    <SvgIcon {...props} viewBox="0 0 64 64">
-      <path d="m29 11v14a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4-4v-14a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4zm24-4h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm-28 28h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm21 0a11 11 0 1 0 11 11 11 11 0 0 0 -11-11z" />
-    </SvgIcon>
-  )
-}
-
-export default Category
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9a51da48cba43a1e3e919ad71ab4bf3b4d12158e43650e26555344572661e93
+size 531

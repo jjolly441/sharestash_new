@@ -1,13 +1,3 @@
-import { Avatar } from '@material-ui/core'
-import {
-  border,
-  compose,
-  sizing,
-  spacing,
-  styled,
-  typography,
-} from '@material-ui/system'
-
-const BazarAvatar = styled(Avatar)(compose(spacing, typography, sizing, border))
-
-export default BazarAvatar
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc8bc115f3083f36870ad04d1f131a7a49ca05a688ac153a767a9d6b814b1068
+size 257

@@ -1,27 +1,3 @@
-import { Box } from '@material-ui/core'
-import { styled } from '@material-ui/core/styles'
-
-const HoverBox = styled(Box)({
-  position: 'relative',
-
-  '&:after': {
-    position: 'absolute',
-    content: '" "',
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    zIndex: 1,
-    transition: 'all 250ms ease-in-out',
-  },
-
-  '&:hover:after': {
-    background: 'rgba(0, 0, 0, 0.3)',
-  },
-})
-
-HoverBox.defaultProps = {
-  overflow: 'hidden',
-}
-
-export default HoverBox
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a2c436b66c89dec43bd8ad32d5c4a9da925e040a720fa1c907c86a309f72f48
+size 467

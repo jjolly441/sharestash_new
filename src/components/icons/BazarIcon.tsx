@@ -1,14 +1,3 @@
-import { SvgIcon } from '@material-ui/core'
-import React from 'react'
-
-export interface BazarIconProps {}
-
-const BazarIcon: React.FC<BazarIconProps> = () => {
-  return (
-    <SvgIcon htmlColor="primary" viewBox="0 0 24 24">
-      <img src="/assets/images/icons/bag.svg" alt="" />
-    </SvgIcon>
-  )
-}
-
-export default BazarIcon
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab9093fb681ef769f332caf7750307075cedcf0ae3fb0b34622dc89a05bbebd9
+size 381

@@ -1,12 +1,3 @@
-import { SvgIcon, SvgIconProps } from '@material-ui/core'
-import React from 'react'
-
-const Light = (props: SvgIconProps) => {
-  return (
-    <SvgIcon {...props} viewBox="0 0 24 24">
-      <path d="M19.0765 9.48063H12.1242L15.5905 0L5 14.5194H11.9522L8.48592 24L19.0765 9.48063Z" />
-    </SvgIcon>
-  )
-}
-
-export default Light
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a5130e850fc890ca52f7c17074fd4f80c6363c622a0e2a20e6d8c1e1c84c6e3
+size 325

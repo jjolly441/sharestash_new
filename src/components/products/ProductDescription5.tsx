@@ -1,22 +1,3 @@
-import { H3 } from '@component/Typography'
-import { Box } from '@material-ui/core'
-import React from 'react'
-
-export interface ProductDescription5Props {}
-
-const ProductDescription5: React.FC<ProductDescription5Props> = () => {
-  return (
-    <Box>
-      <H3 mb={2}>Specification:</H3>
-      <Box>
-        Brand: Apple <br />
-        Model: Macbook Pro 2019 <br />
-        Includes : Laptop & Power Cord <br />
-        Color: Metallic <br />
-        Condition: New <br />
-      </Box>
-    </Box>
-  )
-}
-
-export default ProductDescription5
+version https://git-lfs.github.com/spec/v1
+oid sha256:e58e1fa159fa0defdcf505b38743701424cd533f741e08221a80b1db6b3b2173
+size 538

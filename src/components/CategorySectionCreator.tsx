@@ -1,34 +1,3 @@
-import { Box, Container } from '@material-ui/core'
-import React, { ReactNode } from 'react'
-import CategorySectionHeader from './CategorySectionHeader'
-
-export interface CategorySectionCreatorProps {
-  icon?: ReactNode
-  title?: string
-  seeMoreLink?: string
-}
-
-const CategorySectionCreator: React.FC<CategorySectionCreatorProps> = ({
-  icon,
-  seeMoreLink,
-  title,
-  children,
-}) => {
-  return (
-    <Box mb={7.5}>
-      <Container sx={{ pb: '1rem' }}>
-        {title && (
-          <CategorySectionHeader
-            title={title}
-            seeMoreLink={seeMoreLink}
-            icon={icon}
-          />
-        )}
-
-        {children}
-      </Container>
-    </Box>
-  )
-}
-
-export default CategorySectionCreator
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb5599a6d04395fd28376611d0ea9327474a15e7aafe59abb031f24e91400289
+size 715

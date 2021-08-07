@@ -1,24 +1,3 @@
-import { Card, CardProps } from '@material-ui/core'
-import { styled } from '@material-ui/core/styles'
-import React from 'react'
-
-type BazarCardProps = {
-  hoverEffect?: boolean
-}
-
-const BazarCard = styled<React.FC<BazarCardProps & CardProps>>(
-  ({ hoverEffect, children, ...rest }) => <Card {...rest}>{children}</Card>
-)<BazarCardProps>(({ theme, hoverEffect }) => ({
-  borderRadius: '8px',
-  overflow: 'unset',
-  transition: 'all 250ms ease-in-out',
-  '&:hover': {
-    boxShadow: hoverEffect ? theme.shadows[3] : '',
-  },
-}))
-
-BazarCard.defaultProps = {
-  hoverEffect: false,
-}
-
-export default BazarCard
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d0a53ce77ee722009e5fb8cfed369b59308f2674b2d597ba5d311f2f646582d
+size 606

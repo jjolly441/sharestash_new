@@ -1,18 +1,3 @@
-import FlexBox from '@component/FlexBox'
-import Login from '@component/sessions/Login'
-import React from 'react'
-
-const LoginPage = () => {
-  return (
-    <FlexBox
-      flexDirection="column"
-      minHeight="100vh"
-      alignItems="center"
-      justifyContent="center"
-    >
-      <Login toggleDialog  = {false}/>
-    </FlexBox>
-  )
-}
-
-export default LoginPage
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bc37c4aec092261c0e654d532d8f92f7f44dde9b94d4196ab23fe0e59c533b7
+size 365

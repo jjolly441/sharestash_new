@@ -1,14 +1,3 @@
-import { Container } from '@material-ui/core'
-import React from 'react'
-import Navbar from '../navbar/Navbar'
-import AppLayout from './AppLayout'
-
-const NavbarLayout: React.FC = ({ children }) => {
-  return (
-    <AppLayout navbar={<Navbar />}>
-      <Container sx={{ my: '2rem' }}>{children}</Container>
-    </AppLayout>
-  )
-}
-
-export default NavbarLayout
+version https://git-lfs.github.com/spec/v1
+oid sha256:955cb8cc79472ec978ebf07f0dd02a6bba3cb19ff5c88ef6050abd6c4c5cde8e
+size 357

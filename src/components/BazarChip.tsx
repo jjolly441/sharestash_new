@@ -1,22 +1,3 @@
-import { Chip } from '@material-ui/core'
-import {
-  bgcolor,
-  compose,
-  display,
-  flexbox,
-  positions,
-  sizing,
-  spacing,
-  styled,
-  typography,
-} from '@material-ui/system'
-
-const BazarChip = styled(Chip)(
-  compose(spacing, positions, typography, sizing, bgcolor, flexbox, display)
-)
-
-// BazarChip.defaultProps = {
-//   overflow: "unset",
-// };
-
-export default BazarChip
+version https://git-lfs.github.com/spec/v1
+oid sha256:5918ea9cfc0562631135ff90b2d073025d7e5588e5796bc479572892cb2c5803
+size 380

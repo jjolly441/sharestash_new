@@ -1,18 +1,3 @@
-import { Card } from '@material-ui/core'
-import { styled } from '@material-ui/styles'
-
-const TableRow = styled(Card)({
-  display: 'flex',
-  flexWrap: 'wrap',
-  alignItems: 'center',
-  borderRadius: '10px',
-  cursor: 'pointer',
-  '& > *': {
-    flex: '1 1 0',
-  },
-  '& .pre': {
-    whiteSpace: 'pre',
-  },
-})
-
-export default TableRow
+version https://git-lfs.github.com/spec/v1
+oid sha256:15f549a24d12944b8a1c6dc23920cb9c0044a703a8ab5050b6e3947fc908bb6a
+size 334

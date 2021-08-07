@@ -1,30 +1,3 @@
-import FlexBox from '@component/FlexBox'
-import ProductCard9 from '@component/product-cards/ProductCard9'
-import productDatabase from '@data/product-database'
-import { Pagination } from '@material-ui/core'
-import React from 'react'
-import { Span } from '../Typography'
-
-export interface ProductCard9ListProps {}
-
-const ProductCard9List: React.FC<ProductCard9ListProps> = () => {
-  return (
-    <div>
-      {productDatabase.slice(95, 104).map((item, ind) => (
-        <ProductCard9 key={ind} {...item} />
-      ))}
-
-      <FlexBox
-        flexWrap="wrap"
-        justifyContent="space-between"
-        alignItems="center"
-        mt={4}
-      >
-        <Span color="grey.600">Showing 1-9 of 1.3k Products</Span>
-        <Pagination count={10} variant="outlined" color="primary" />
-      </FlexBox>
-    </div>
-  )
-}
-
-export default ProductCard9List
+version https://git-lfs.github.com/spec/v1
+oid sha256:5724d5ae351ca17ac639d6ae9818b5ff20d88096dec0143755f385bf99c595f7
+size 847

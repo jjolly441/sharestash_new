@@ -22,7 +22,7 @@ const navigations = [
        
       ],
       rightImage: {
-        imgUrl: '/assets/images/promotion/offer-1.png',
+        imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/promotion/offer-1.png',
         href: '/sale-page-1',
       },
       
@@ -46,22 +46,22 @@ const navigations = [
             {
               title: 'Math',
               href: '/product/search/math-textbooks',
-              imgUrl: '/assets/images/products/categories/shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/shirt.png',
             },
             {
               title: 'English',
               href: '/product/search/english-textbooks',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
             {
               title: 'Science',
               href: '/product/search/pant',
-              imgUrl: '/assets/images/products/categories/pant.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/pant.png',
             },
             {
               title: 'Social Science',
               href: '/product/search/underwear',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
           ],
         },
@@ -73,12 +73,12 @@ const navigations = [
             {
               title: 'General Major',
               href: '/product/search/major-specific',
-              imgUrl: '/assets/images/products/categories/belt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/belt.png',
             },
             {
               title: 'Special Major',
               href: '/product/search/major-specific',
-              imgUrl: '/assets/images/products/categories/hat.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/hat.png',
             },
             
           ],
@@ -90,7 +90,7 @@ const navigations = [
             {
               title: 'General',
               href: '/product/search/specialty-textbooks',
-              imgUrl: '/assets/images/products/categories/sneaker.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sneaker.png',
             },
             
           ],
@@ -99,7 +99,7 @@ const navigations = [
       ],
       
       bottomImage: {
-        imgUrl: '/assets/images/promotion/offer-5.png',
+        imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/promotion/offer-5.png',
         href: '/',
       },
     },
@@ -120,22 +120,22 @@ const navigations = [
             {
               title: 'Shirt',
               href: '/product/search/shirt',
-              imgUrl: '/assets/images/products/categories/shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/shirt.png',
             },
             {
               title: 'T- shirt',
               href: '/product/search/t-shirt',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
             {
               title: 'Pant',
               href: '/product/search/pant',
-              imgUrl: '/assets/images/products/categories/pant.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/pant.png',
             },
             {
               title: 'Underwear',
               href: '/product/search/underwear',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
           ],
         },
@@ -146,22 +146,22 @@ const navigations = [
             {
               title: 'Belt',
               href: '/product/search/belt',
-              imgUrl: '/assets/images/products/categories/belt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/belt.png',
             },
             {
               title: 'Hat',
               href: '/product/search/Hat',
-              imgUrl: '/assets/images/products/categories/hat.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/hat.png',
             },
             {
               title: 'Watches',
               href: '/product/search/Watches',
-              imgUrl: '/assets/images/products/categories/watch.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/watch.png',
             },
             {
               title: 'Sunglasses',
               href: '/product/search/Sunglasses',
-              imgUrl: '/assets/images/products/categories/sunglass.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sunglass.png',
             },
           ],
         },
@@ -172,22 +172,22 @@ const navigations = [
             {
               title: 'Sneakers',
               href: '/product/search/Sneakers',
-              imgUrl: '/assets/images/products/categories/sneaker.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sneaker.png',
             },
             {
               title: 'Sandals',
               href: '/product/search/Sandals',
-              imgUrl: '/assets/images/products/categories/sandal.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sandal.png',
             },
             {
               title: 'Formal',
               href: '/product/search/Formal',
-              imgUrl: '/assets/images/products/categories/shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/shirt.png',
             },
             {
               title: 'Casual',
               href: '/product/search/Casual',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
           ],
         },
@@ -198,22 +198,22 @@ const navigations = [
             {
               title: 'Backpack',
               href: '/product/search/backpack',
-              imgUrl: '/assets/images/products/categories/backpack.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/backpack.png',
             },
             {
               title: 'Crossbody Bags',
               href: '/product/search/Crossbody Bags',
-              imgUrl: '/assets/images/products/categories/bag.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/bag.png',
             },
             {
               title: 'Side Bags',
               href: '/product/search/Side Bags',
-              imgUrl: '/assets/images/products/categories/mini-bag.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/mini-bag.png',
             },
             {
               title: 'Slides',
               href: '/product/search/Slides',
-              imgUrl: '/assets/images/products/categories/belt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/belt.png',
             },
           ],
         },
@@ -224,22 +224,22 @@ const navigations = [
             {
               title: 'Shirt',
               href: '/product/search/shirt',
-              imgUrl: '/assets/images/products/categories/shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/shirt.png',
             },
             {
               title: 'T- shirt',
               href: '/product/search/t-shirt',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
             {
               title: 'Pant',
               href: '/product/search/pant',
-              imgUrl: '/assets/images/products/categories/pant.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/pant.png',
             },
             {
               title: 'Underwear',
               href: '/product/search/underwear',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
           ],
         },
@@ -250,22 +250,22 @@ const navigations = [
             {
               title: 'Belt',
               href: '/product/search/belt',
-              imgUrl: '/assets/images/products/categories/belt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/belt.png',
             },
             {
               title: 'Hat',
               href: '/product/search/Hat',
-              imgUrl: '/assets/images/products/categories/hat.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/hat.png',
             },
             {
               title: 'Watches',
               href: '/product/search/Watches',
-              imgUrl: '/assets/images/products/categories/watch.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/watch.png',
             },
             {
               title: 'Sunglasses',
               href: '/product/search/Sunglasses',
-              imgUrl: '/assets/images/products/categories/sunglass.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sunglass.png',
             },
             
           ],
@@ -279,22 +279,22 @@ const navigations = [
             {
               title: 'Sneakers',
               href: '/product/search/Sneakers',
-              imgUrl: '/assets/images/products/categories/sneaker.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sneaker.png',
             },
             {
               title: 'Sandals',
               href: '/product/search/Sandals',
-              imgUrl: '/assets/images/products/categories/sandal.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/sandal.png',
             },
             {
               title: 'Formal',
               href: '/product/search/Formal',
-              imgUrl: '/assets/images/products/categories/shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/shirt.png',
             },
             {
               title: 'Casual',
               href: '/product/search/Casual',
-              imgUrl: '/assets/images/products/categories/t-shirt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/t-shirt.png',
             },
           ],
         },
@@ -305,22 +305,22 @@ const navigations = [
             {
               title: 'Backpack',
               href: '/product/search/backpack',
-              imgUrl: '/assets/images/products/categories/backpack.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/backpack.png',
             },
             {
               title: 'Crossbody Bags',
               href: '/product/search/Crossbody Bags',
-              imgUrl: '/assets/images/products/categories/bag.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/bag.png',
             },
             {
               title: 'Side Bags',
               href: '/product/search/Side Bags',
-              imgUrl: '/assets/images/products/categories/mini-bag.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/mini-bag.png',
             },
             {
               title: 'Slides',
               href: '/product/search/Slides',
-              imgUrl: '/assets/images/products/categories/belt.png',
+              imgUrl: 'https://storage.googleapis.com/sharestash2.appspot.com/assets/images/products/categories/belt.png',
             },
           ],
         },

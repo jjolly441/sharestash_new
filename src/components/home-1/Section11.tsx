@@ -1,22 +1,3 @@
-import productDatabase from '@data/product-database'
-import { Container, Grid } from '@material-ui/core'
-import React from 'react'
-import CategorySectionHeader from '../CategorySectionHeader'
-import ProductCard1 from '../product-cards/ProductCard1'
-
-const Section11 = () => {
-  return (
-    <Container sx={{ mb: '70px' }}>
-      <CategorySectionHeader title="More For You" seeMoreLink="#" />
-      <Grid container spacing={3}>
-        {productDatabase.slice(48, 60).map((item, ind) => (
-          <Grid item lg={3} md={4} sm={6} xs={12} key={ind}>
-            <ProductCard1 off={25} hoverEffect {...item} />
-          </Grid>
-        ))}
-      </Grid>
-    </Container>
-  )
-}
-
-export default Section11
+version https://git-lfs.github.com/spec/v1
+oid sha256:839b0bbf383ba80937542cce462af232304dee3e4f624bff7cb15bf66a8fa80e
+size 701

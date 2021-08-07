@@ -39,5 +39,5 @@
     }
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "next.config.js"]
+  "include": ["**/*.ts", "**/*.tsx", "next.config.js", "src/components/landing/WaitListForm.js", "src/components/WaitListForm.js", "pages/datechoice.js"]
 }

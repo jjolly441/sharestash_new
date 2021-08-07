@@ -1,21 +1,3 @@
-import { H3 } from '@component/Typography'
-import { Box } from '@material-ui/core'
-import React from 'react'
-
-export interface ProductDescription9Props {}
-
-const ProductDescription9: React.FC<ProductDescription9Props> = () => {
-  return (
-    <Box>
-      <H3 mb={2}>Specification:</H3>
-      <Box>
-        Brand: Sony <br />
-        Type: DSLR Mirrorless Camera <br />
-        Includes : Full Camera Set & Accessories <br />
-        Condition: Used <br />
-      </Box>
-    </Box>
-  )
-}
-
-export default ProductDescription9
+version https://git-lfs.github.com/spec/v1
+oid sha256:50d08c851e1b0601c2f4873856dce63dfce0c04134934daf579fbd289fb2b79b
+size 521

@@ -1,18 +1,3 @@
-import FlexBox from '@component/FlexBox'
-import Signup from '@component/sessions/Signup'
-import React from 'react'
-
-const SignUpPage = () => {
-  return (
-    <FlexBox
-      flexDirection="column"
-      minHeight="100vh"
-      alignItems="center"
-      justifyContent="center"
-    >
-      <Signup />
-    </FlexBox>
-  )
-}
-
-export default SignUpPage
+version https://git-lfs.github.com/spec/v1
+oid sha256:352bcdc18f3ee7a6385ce98096095320493f11cb81302025af04d150c8bd7488
+size 347

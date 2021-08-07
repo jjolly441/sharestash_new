@@ -1,27 +1,3 @@
-import Navbar from '@component/navbar/Navbar'
-import { Container, Grid } from '@material-ui/core'
-import React from 'react'
-import AppLayout from './AppLayout'
-import CustomerDashboardNavigation from './CustomerDashboardNavigation'
-
-const CustomerDashboardLayout: React.FC = ({ children }) => (
-  <AppLayout navbar={<Navbar />}>
-    <Container sx={{ my: '2rem' }}>
-      <Grid container spacing={3}>
-        <Grid
-          item
-          lg={3}
-          xs={12}
-          sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}
-        >
-          <CustomerDashboardNavigation />
-        </Grid>
-        <Grid item lg={9} xs={12}>
-          {children}
-        </Grid>
-      </Grid>
-    </Container>
-  </AppLayout>
-)
-
-export default CustomerDashboardLayout
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb24adaac8a528bce9ee1461cbb1c08a2d972eea5761e571549f97b8a900a6c8
+size 760

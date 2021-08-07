@@ -1,17 +1,3 @@
-import {
-  bgcolor,
-  borderRadius,
-  BordersProps,
-  compose,
-  spacing,
-  SpacingProps,
-  styled,
-} from '@material-ui/system'
-import NextImage, { ImageProps } from 'next/image'
-import React from 'react'
-
-const LazyImage = styled<React.FC<ImageProps & BordersProps & SpacingProps>>(
-  ({ borderRadius, ...rest }) => <NextImage {...rest} />
-)(compose(spacing, borderRadius, bgcolor))
-
-export default LazyImage
+version https://git-lfs.github.com/spec/v1
+oid sha256:16e990da769f4331a3175e7b6f9d9b12ed2152bcc04b41669daf9e92a630669b
+size 411

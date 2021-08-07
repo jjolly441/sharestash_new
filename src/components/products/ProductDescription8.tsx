@@ -1,22 +1,3 @@
-import { H3 } from '@component/Typography'
-import { Box } from '@material-ui/core'
-import React from 'react'
-
-export interface ProductDescription8Props {}
-
-const ProductDescription8: React.FC<ProductDescription8Props> = () => {
-  return (
-    <Box>
-      <H3 mb={2}>Specification:</H3>
-      <Box>
-        Brand: McGraw Hill <br />
-        ISBN: -- <br />
-        Edition: 12th <br />
-        Includes : Full Physical Textbook <br />
-        Condition: Used <br />
-      </Box>
-    </Box>
-  )
-}
-
-export default ProductDescription8
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0b7584f93b6751a4e9a9bf06eedc6e9e6210e3aa73352c337b6e5174021b7d2
+size 530

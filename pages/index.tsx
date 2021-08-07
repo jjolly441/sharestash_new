@@ -1,22 +1,3 @@
-import Section1 from '@component/home-1/Section1'
-import Section12 from '@component/home-1/Section12'
-import Section3 from '@component/home-1/Section3'
-import Section5 from '@component/home-1/Section5'
-
-//import "@vf-alchemy/vattenfall-design-system/scss/main.scss";
-import AppLayout from '@component/layout/AppLayout'
-
-
-const IndexPage = () => {
-  return (
-    <AppLayout>
-      <Section1 /> 
-      <Section12 />
-      <Section3 />
-      <Section5 />
-      <Section12 />
-    </AppLayout>
-  )
-}
-
-export default IndexPage
+version https://git-lfs.github.com/spec/v1
+oid sha256:f54d117af47bb8b5eb6ed562152a064828e07474e50d02b7182d999664c13fab
+size 521

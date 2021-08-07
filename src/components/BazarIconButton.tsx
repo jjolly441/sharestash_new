@@ -1,17 +1,3 @@
-import { IconButton } from '@material-ui/core'
-import {
-  bgcolor,
-  border,
-  compose,
-  positions,
-  sizing,
-  spacing,
-  styled,
-  typography,
-} from '@material-ui/system'
-
-const BazarIconButton = styled(IconButton)(
-  compose(spacing, positions, typography, sizing, border, bgcolor)
-)
-
-export default BazarIconButton
+version https://git-lfs.github.com/spec/v1
+oid sha256:40ce82ac5cd6f6176feffb0c1aaf49223141058757ccd1a3aec774a3ea2c801f
+size 321
